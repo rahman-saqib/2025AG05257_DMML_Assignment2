@@ -1,0 +1,8 @@
+# Model Evaluation Results
+
+K = 10
+
+| model | precision_at_10 | recall_at_10 | ndcg_at_10 | coverage | diversity | users_evaluated |
+|---|---|---|---|---|---|---|
+| popularity_baseline | 0.0701 | 0.1627 | 0.1438 | 0.058 | 0.8837 | 963.0 |
+| item_based_cf | 0.0825 | 0.1871 | 0.1676 | 0.088 | 0.8859 | 963.0 |

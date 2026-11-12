@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+data/raw/*
+data/processed/*
+data/features/*
+models/*.joblib
+mlruns/
+mlflow.db
+.prefect/
+!.gitkeep
